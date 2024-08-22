@@ -58,7 +58,7 @@ unique_name_in_owner = true
 layout_mode = 2
 theme_override_fonts/font = ExtResource("1_bwmdo")
 theme_override_font_sizes/font_size = 30
-text = "= 10 pontos
+text = "= 10 points
 "
 
 [node name="InvaderContainer2" type="HBoxContainer" parent="MarginContainer/VBoxContainer1/VBoxContainer2/VBoxContainer3"]

@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dswhntuv7pm2i"]
+[gd_scene load_steps=3 format=3 uid="uid://dswhntuv7pm2i"]
 
 [ext_resource type="PackedScene" uid="uid://dmel2vjeltnxr" path="res://scenes/player.tscn" id="1_hjaug"]
+[ext_resource type="PackedScene" uid="uid://bf1m7i6rckm2" path="res://scenes/bullet_catcher.tscn" id="2_rcib6"]
 
 [node name="Main" type="Node"]
 
@@ -8,3 +9,5 @@
 
 [node name="Player" parent="." instance=ExtResource("1_hjaug")]
 position = Vector2(0, 308)
+
+[node name="BulletCatcher" parent="." instance=ExtResource("2_rcib6")]
